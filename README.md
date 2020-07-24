@@ -25,7 +25,7 @@ Some ksqlDB examples to demonstrate real use cases.
 ## Launch
 
 ```shell
-docker-compose up -d
+./start.sh
 ```
 
 ## Fire up the ksqlDB CLI
@@ -108,7 +108,7 @@ curl -X "POST" "http://localhost:8088/query" \
 ## Shut Down
 
 ```shell
-docker-compose down
+./stop.sh
 ```
 
 ## Resources
