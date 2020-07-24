@@ -1,4 +1,4 @@
-# Local Kafka
+# ksqlDB Playground
 
 Some ksqlDB examples to demonstrate real use cases.
 
