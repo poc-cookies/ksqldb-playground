@@ -67,6 +67,12 @@ docker exec ksqldb-cli ksql-test-runner \
 
 *The testing tool processes input messages for each query one-by-one and writes the generated message(s) for each input message into the result topic (every possible intermediate result is created).*
 
+#### Run all tests
+
+```shell
+./run-tests.sh
+```
+
 ## Take it to production
 
 Launch your statements into production by sending them to the ksqlDB server REST endpoint with the following command:
