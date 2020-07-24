@@ -1,0 +1,21 @@
+{
+  "inputs": [
+    {"topic": "products", "key": "T-shirt", "value": {"cost": 10}},
+    {"topic": "products", "key": "Pants", "value": {"cost": 12.5}},
+    {"topic": "products", "key": "Jacket", "value": {"cost": 17}},
+    {"topic": "products", "key": "Shorts", "value": {"cost": 8.5}},
+    {"topic": "products", "key": "Sweater", "value": {"cost": 11.5}},
+    {"topic": "products", "key": "Underwear", "value": {"cost": 5}},
+    {"topic": "products", "key": "Hat", "value": {"cost": 4}},
+
+    {"topic": "orders", "key": null, "value": {"product_name": "T-shirt"}},
+    {"topic": "orders", "key": null, "value": {"product_name": "T-shirt"}},
+    {"topic": "orders", "key": null, "value": {"product_name": "T-shirt"}},
+
+    {"topic": "orders", "key": null, "value": {"product_name": "Jacket"}},
+    {"topic": "orders", "key": null, "value": {"product_name": "Jacket"}},
+    {"topic": "orders", "key": null, "value": {"product_name": "Jacket"}},
+    {"topic": "orders", "key": null, "value": {"product_name": "Jacket"}},
+    {"topic": "orders", "key": null, "value": {"product_name": "Jacket"}}
+  ]
+}

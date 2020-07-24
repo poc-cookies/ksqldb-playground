@@ -1,0 +1,21 @@
+{
+  "outputs": [
+    {"topic": "products", "key": "T-shirt", "value": {"cost": 10}},
+    {"topic": "products", "key": "Pants", "value": {"cost": 12.5}},
+    {"topic": "products", "key": "Jacket", "value": {"cost": 17}},
+    {"topic": "products", "key": "Shorts", "value": {"cost": 8.5}},
+    {"topic": "products", "key": "Sweater", "value": {"cost": 11.5}},
+    {"topic": "products", "key": "Underwear", "value": {"cost": 5}},
+    {"topic": "products", "key": "Hat", "value": {"cost": 4}},
+
+    {"topic": "ORDER_METRICS", "key": "T-shirt", "value": {"COUNT": 1, "REVENUE": 10}},
+    {"topic": "ORDER_METRICS", "key": "T-shirt", "value": {"COUNT": 2, "REVENUE": 20}},
+    {"topic": "ORDER_METRICS", "key": "T-shirt", "value": {"COUNT": 3, "REVENUE": 30}},
+
+    {"topic": "ORDER_METRICS", "key": "Jacket", "value": {"COUNT": 1, "REVENUE": 17}},
+    {"topic": "ORDER_METRICS", "key": "Jacket", "value": {"COUNT": 2, "REVENUE": 34}},
+    {"topic": "ORDER_METRICS", "key": "Jacket", "value": {"COUNT": 3, "REVENUE": 51}},
+    {"topic": "ORDER_METRICS", "key": "Jacket", "value": {"COUNT": 4, "REVENUE": 68}},
+    {"topic": "ORDER_METRICS", "key": "Jacket", "value": {"COUNT": 5, "REVENUE": 85}}
+  ]
+}
