@@ -2,10 +2,25 @@
 
 Some ksqlDB examples to demonstrate real use cases.
 
+- Apply a function to data
+  - apply a custom, user-defined function
+  - merge streams
+- Aggregate data
+  - aggregate count
+  - aggregate minmax
+- Join data
+  - join stream and table
+  - join stream and stream
+- Collect data over time
+  - tumbling-windows
+- Connect data sources & sinks
+  - add a key to a stream from a JDBC source
+
 ## Prerequisites
 
 1. Docker
-2. A running multi-container Docker application (defined in the `./docker-compose.yml` file)
+2. gradle
+3. A running multi-container Docker application (defined in the `./docker-compose.yml` file)
 
 ## Launch
 
