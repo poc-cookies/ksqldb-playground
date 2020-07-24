@@ -19,12 +19,12 @@ docker-compose up -d
 docker exec -it ksqldb-cli ksql http://ksqldb-server:8088
 ```
 
-## Inspect topics / streams / tables / functions
+## Inspect topics / streams / tables / functions / connectors
 
 #### List topics/streams/tables
 
 ```sql
-show {topics|streams|tables|functions};
+show {topics|streams|tables|functions|connectors};
 ```
 
 #### See some additional info about a function
